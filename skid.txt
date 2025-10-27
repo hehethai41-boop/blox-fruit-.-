@@ -2357,21 +2357,21 @@ task.defer(function()
 end)
 wait(1.0)
 Tabs.Info:AddButton({
-        Title="Andepzai Premium Community",
+        Title="thaidz Premium Community",
         Description="Discord",
         Callback=function()
             setclipboard(tostring("https://discord.gg/tboyroblox-community-1253927333920899153")) 
         end
 })
 Tabs.Info:AddButton({
-    Title="Andepzai Premium",
+    Title=" thaidz Premium",
     Description="Youtube",
     Callback=function()
         setclipboard(tostring("https://www.youtube.com/@TBoyRoblox08"))
     end
 })
 Tabs.Info:AddParagraph({
-    Title="Andepzai Premium",
+    Title="thaidz Premium",
     Content="Blox Fruit"
 })
 local executorName
@@ -2398,7 +2398,7 @@ Tabs.Info:AddParagraph({
     Title="All Clients PC Supported",
     Content=""
 })
-_G.FastAttackVxeze_Mode="Xeter Super Fast Attack"
+_G.FastAttackVxeze_Mode="lọ vương Super Fast Attack"
 spawn(function()
     while wait() do
         if _G.FastAttackVxeze_Mode then
@@ -9329,3 +9329,4 @@ if currentTime - lastNotificationTime >= notificationCooldown then
     lastNotificationTime = currentTime
 
 end
+
