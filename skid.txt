@@ -175,7 +175,7 @@ hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respawn), function() end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = " Andepzai Hub",
+    Title = " thaidz Hub",
     SubTitle="Blox Fruit", 
     TabWidth=150, 
     Theme="Darker",
@@ -9329,4 +9329,5 @@ if currentTime - lastNotificationTime >= notificationCooldown then
     lastNotificationTime = currentTime
 
 end
+
 
